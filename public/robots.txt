@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://lightslategray-badger-617503.hostingersite.com/product
