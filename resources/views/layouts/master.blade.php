@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title', 'Café Luxe - Premium Coffee in Cambodia')</title>
     <meta name="description" content="@yield('meta_description', 'Discover Café Luxe: a premium coffee experience with artisan brews and a relaxing atmosphere in Phnom Penh.')">
-    <meta name="keywords" content="huy coffee, huy, cofe">
-
+    <meta name="keywords" content="café luxe, phnom penh coffee, artisan coffee cambodia, espresso cambodia, iced latte phnom penh, caramel macchiato, premium café cambodia, best coffee shop in phnom penh, specialty coffee, relaxing café cambodia">
+    <meta name="google-site-verification" content="SumcZvRSTL1NU02UzrRcMy4JehLtFjdsTacuuMldV-w" />
     <!-- Open Graph (Facebook & LinkedIn) -->
     <meta property="og:title" content="@yield('meta_og_title', 'Café Luxe - Premium Coffee in Cambodia')" />
     <meta property="og:description" content="@yield('meta_og_description', 'Savor the taste of artisan coffee at Café Luxe. Hot, cold, and signature blends served fresh.')" />
