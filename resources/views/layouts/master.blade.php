@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title', 'Café Luxe - Premium Coffee in Cambodia')</title>
     <meta name="description" content="@yield('meta_description', 'Discover Café Luxe: a premium coffee experience with artisan brews and a relaxing atmosphere in Phnom Penh.')">
-    <meta name="keywords" content="coffee shop, café, Cambodia coffee, artisan coffee, Phnom Penh café, espresso, latte, cappuccino">
+    <meta name="keywords" content="huy coffee, huy, cofe">
 
     <!-- Open Graph (Facebook & LinkedIn) -->
     <meta property="og:title" content="@yield('meta_og_title', 'Café Luxe - Premium Coffee in Cambodia')" />
     <meta property="og:description" content="@yield('meta_og_description', 'Savor the taste of artisan coffee at Café Luxe. Hot, cold, and signature blends served fresh.')" />
-    <meta property="og:image" content="@yield('meta_og_image', asset('images/coffee-preview.jpg'))" />
+    <meta property="og:image" content="@yield('meta_og_image', asset('assets/images/logo.png'))" />
     <meta property="og:url" content="{{ url()->current() }}" />
     <meta property="og:type" content="website" />
 
@@ -19,7 +19,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="@yield('meta_twitter_title', 'Café Luxe')" />
     <meta name="twitter:description" content="@yield('meta_twitter_description', 'Premium coffee blends crafted in Cambodia.')" />
-    <meta name="twitter:image" content="@yield('meta_twitter_image', asset('images/coffee-preview.jpg'))" />
+    <meta name="twitter:image" content="@yield('meta_twitter_image', asset('assets/images/logo.png'))" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
