@@ -7,15 +7,16 @@ use Artesaos\SEOTools\Facades\SEOTools;
 
 class HomeController extends Controller
 {
-    public function index(Request $request){
+    public function index(Request $request)
+    {
 
-    SEOTools::setTitle('Home - Café Luxe');
-    SEOTools::setDescription('Welcome to Café Luxe, your destination for artisan coffee in Cambodia.');
-    SEOTools::opengraph()->setUrl(route('home'));
-    SEOTools::setCanonical(route('home'));
-    SEOTools::opengraph()->addProperty('type', 'website');
-    SEOTools::twitter()->setSite('@cafeluxe');
-    SEOTools::addImages([asset('images/coffee-preview.jpg')]);
+        SEOTools::setTitle('Home - Café Luxe');
+        SEOTools::setDescription('Welcome to Café Luxe, your destination for artisan coffee in Cambodia.');
+        SEOTools::opengraph()->setUrl(route('home'));
+        SEOTools::setCanonical(route('home'));
+        SEOTools::opengraph()->addProperty('type', 'website');
+        SEOTools::twitter()->setSite('@cafeluxe');
+        SEOTools::addImages([asset('assets/images/logo.png')]);
 
 
         $search = $request->input('search');

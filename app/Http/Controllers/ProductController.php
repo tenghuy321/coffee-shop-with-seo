@@ -9,12 +9,12 @@ class ProductController extends Controller
 {
     public function index(Request $request)
     {
-        SEOTools::setTitle('Menu - Café Luxe');
+        SEOTools::setTitle('Product - Café Luxe');
         SEOTools::setDescription('Explore our full artisan coffee menu — espresso, cold brew, signature blends.');
         SEOTools::opengraph()->setUrl(route('product'));
         SEOTools::addImages([
             asset('images/menu.jpg'),
-            asset('images/coffee-banner.jpg'),
+            asset('assets/images/banner-image.jpg'),
         ]);
         $search = $request->input('search');
 

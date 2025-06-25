@@ -31,9 +31,7 @@
     @vite('resources/css/app.css')
 
     @yield('css')
-    {!! \Artesaos\SEOTools\Facades\SEOTools::generate() !!}
-
-
+    {!! SEOTools::generate() !!}
 </head>
 
 <body class="bg-[#fefaf6] text-[#3e2f2f] font-sans">

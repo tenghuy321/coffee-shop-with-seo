@@ -128,6 +128,7 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
     'aliases' => [
+        'SEOTools' => Artesaos\SEOTools\Facades\SEOTools::class,
         'SEOMeta'    => Artesaos\SEOTools\Facades\SEOMeta::class,
         'OpenGraph'  => Artesaos\SEOTools\Facades\OpenGraph::class,
         'Twitter'    => Artesaos\SEOTools\Facades\TwitterCard::class,

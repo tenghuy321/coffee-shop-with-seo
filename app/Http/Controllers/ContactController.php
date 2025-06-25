@@ -9,13 +9,13 @@ class ContactController extends Controller
 {
     public function index()
     {
-            SEOTools::setTitle('Menu - Café Luxe');
-    SEOTools::setDescription('Explore our full artisan coffee menu — espresso, cold brew, signature blends.');
-    SEOTools::opengraph()->setUrl(route('product'));
-    SEOTools::addImages([
-        asset('images/menu.jpg'),
-        asset('images/coffee-banner.jpg'),
-    ]);
+        SEOTools::setTitle('Contact - Café Luxe');
+        SEOTools::setDescription('Explore our full artisan coffee menu — espresso, cold brew, signature blends.');
+        SEOTools::opengraph()->setUrl(route('product'));
+        SEOTools::addImages([
+            asset('images/menu.jpg'),
+            asset('assets/images/banner-image.jpg'),
+        ]);
         return view('contact');
     }
 }
